@@ -20,7 +20,7 @@ def main():
         processed_data.to_csv(processed_data_path, index=False)
         print(f"Data saved to '{processed_data_path}'")
     else:
-        print("No data scraped. Please check the logs for more details.")
+        print("No data was scraped. Please check the logs for more details.")
 
 if __name__ == "__main__":
     main()
